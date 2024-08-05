@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: coral;
+}
+
+#chrono
+{
+    width: 30vw;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px
+}
+
+#timer
+{
+    padding: 10px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#controller
+{
+    padding: 10px 0px 0px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#controller button
+{
+    width: 31%;
+    padding : 15px;
+    font-size: 20px;
+    background-color: coral;
+    border: 0;
+    transition: 0.5s;
+}
+
+#controller button:hover
+{
+    transform: scale(0.9);
+}
