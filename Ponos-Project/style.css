@@ -1,0 +1,55 @@
+:root
+{
+    --main-color: coral;
+    --second-color: white;
+    --classic-radius: 10px;
+}
+
+body {
+    height: 95vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(122, 122, 122);
+    background-color: var(--main-color);
+}
+
+#ponosList {
+    width : 30vw;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--second-color);
+    border-radius: var(--classic-radius);
+}
+
+#ponosList h1 {
+    
+}
+
+#fullInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ponosInput
+{
+    width: 90%;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px, solid, rgb(122, 122, 122);
+    border-radius: 10px 0 0 10px;
+}
+
+#addButton
+{
+    width: 10%;
+    height: 50px;
+    font-size: 20px;
+    color: var(--second-color);
+    background-color: var(--main-color);
+    border: 0;
+    border-radius: 0 10px 10px 0;
+}
